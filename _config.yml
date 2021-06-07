@@ -44,14 +44,14 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    G-xxxx
+google_analytics:    G-SF668KBKKP
 
 # 댓글기능
 disqus: True
 disqus_shortname:    xxxx
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2020.12. by 따라쟁이'
+copyright:           '&copy; 2020.12. by crispycodeandchips'
 
 # Format of the permalinks
 permalink:           
@@ -131,4 +131,11 @@ compress_html:
 sass:
   style:             compressed
 
-
+tipue_search:
+     include:
+         pages: false
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html]
+         categories: []
+         tags: []
